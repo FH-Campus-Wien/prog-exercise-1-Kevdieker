@@ -6,17 +6,46 @@ public class App {
 
     //todo Task 1
     public void sayHelloWorld(){
-        // input your solution here
+    System.out.println("Hello World!");
     }
 
     //todo Task 2
     public void helloRobot(){
-        // input your solution here
+        System.out.println("0123456789012345678901");
+        System.out.print(
+                "         __" + System.lineSeparator() +
+                " _(\\    |@@|" + System.lineSeparator() +
+                "(__/\\__ \\--/ __" + System.lineSeparator() +
+                "   \\___|----|  |   __" + System.lineSeparator() +
+                "       \\ }{ /\\ )_ / _\\" + System.lineSeparator() +
+                "       /\\__/\\ \\__O (__" + System.lineSeparator() +
+                "      (--/\\--)    \\__/" + System.lineSeparator() +
+                "      _)(  )(_" + System.lineSeparator() +
+                "     `---''---`" + System.lineSeparator());
     }
 
     //todo Task 3
     public void sumOfLiterals(){
-        // input your solution here
+        char a ='Z';
+        int  b = 0xface;
+        int c = 012;
+        long d = 80L;
+        float e = 44e-1f, f = 5.5f;
+        double  g=8.88e1, h = 99.9;
+
+        int ai = (int)a;
+        int ci = (int)c;
+        int di = (int)d;
+        int ei = (int)e;
+        int fi = (int)f;
+        int gi = (int)g;
+        int hi = (int)h;
+
+        int sum = (int)a+b+(int)c+(int)d+(int)e+(int)f+(int)g;
+
+        System.out.println(a+" "+b+" "+ci+" "+" "+di+" "+ei+" "+fi+" "+gi+" ");
+        System.out.println(a+b+ci+di+ei+fi+gi+h);
+        System.out.println(sum);
     }
 
     //todo Task 4
