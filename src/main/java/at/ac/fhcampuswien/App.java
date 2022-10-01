@@ -43,11 +43,11 @@ public class App {
         int x=0,y=0;
 
       // It's the onlyScanner u will ever need xD
-        Scanner onlyScanner = new Scanner(System.in);
-        x = onlyScanner.nextInt();
+        Scanner xScanner = new Scanner(System.in);
+        Scanner yScanner = new Scanner(System.in);
 
-        onlyScanner = new Scanner(System.in);
-        y = onlyScanner.nextInt();
+        x = xScanner.nextInt();
+        y = yScanner.nextInt();
 
         int sum = x+y;
 
@@ -60,14 +60,14 @@ public class App {
 
         int x=0,y=0;
         System.out.println("Before Swap:");
-        System.out.print("x: ");
 
-        Scanner onlyScanner = new Scanner(System.in);
-        x = onlyScanner.nextInt();
+        System.out.print("x: ");
+        Scanner xScanner = new Scanner(System.in);
+        x = xScanner.nextInt();
 
         System.out.print("y: ");
-        onlyScanner = new Scanner(System.in);
-        y = onlyScanner.nextInt();
+        Scanner yScanner = new Scanner(System.in);
+        y = yScanner.nextInt();
 
         System.out.println("After Swap:");
 
@@ -95,12 +95,12 @@ public class App {
         int x=0,n1=0,n2=0;
 
         System.out.print("n1: ");
-        Scanner onlyScanner = new Scanner(System.in);
-        n1 = onlyScanner.nextInt();
+        Scanner n1Scanner = new Scanner(System.in);
+        n1 = n1Scanner.nextInt();
 
         System.out.print("n2: ");
-        onlyScanner = new Scanner(System.in);
-        n2 = onlyScanner.nextInt();
+        Scanner n2Scanner = new Scanner(System.in);
+        n2 = n2Scanner.nextInt();
 
       if (n1>n2){
           System.out.println("n1 > n2");
